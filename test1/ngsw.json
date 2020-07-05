@@ -1,0 +1,102 @@
+{
+  "configVersion": 1,
+  "timestamp": 1593958903377,
+  "index": "https://github.com/varilaz/test.git/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://github.com/varilaz/test.git/favicon.ico",
+        "https://github.com/varilaz/test.git/index.html",
+        "https://github.com/varilaz/test.git/main-es2015.efafcf356fbe8ae70a9c.js",
+        "https://github.com/varilaz/test.git/main-es5.efafcf356fbe8ae70a9c.js",
+        "https://github.com/varilaz/test.git/manifest.webmanifest",
+        "https://github.com/varilaz/test.git/polyfills-es2015.f332a089ad1600448873.js",
+        "https://github.com/varilaz/test.git/polyfills-es5.2237b5d0d7a85091411d.js",
+        "https://github.com/varilaz/test.git/runtime-es2015.0dae8cbc97194c7caed4.js",
+        "https://github.com/varilaz/test.git/runtime-es5.0dae8cbc97194c7caed4.js",
+        "https://github.com/varilaz/test.git/styles.f4bc06104ae01c18a355.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://github.com/varilaz/test.git/assets/icons/icon-128x128.png",
+        "https://github.com/varilaz/test.git/assets/icons/icon-144x144.png",
+        "https://github.com/varilaz/test.git/assets/icons/icon-152x152.png",
+        "https://github.com/varilaz/test.git/assets/icons/icon-192x192.png",
+        "https://github.com/varilaz/test.git/assets/icons/icon-384x384.png",
+        "https://github.com/varilaz/test.git/assets/icons/icon-512x512.png",
+        "https://github.com/varilaz/test.git/assets/icons/icon-72x72.png",
+        "https://github.com/varilaz/test.git/assets/icons/icon-96x96.png",
+        "https://github.com/varilaz/test.git/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
+        "https://github.com/varilaz/test.git/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
+        "https://github.com/varilaz/test.git/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
+        "https://github.com/varilaz/test.git/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff",
+        "https://github.com/varilaz/test.git/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "items",
+      "patterns": [
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/rrafols\\/mobile_test\\/master\\/data\\.json"
+      ],
+      "strategy": "performance",
+      "maxSize": 5,
+      "maxAge": 86400000,
+      "timeoutMs": 10000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "https://github.com/varilaz/test.git/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://github.com/varilaz/test.git/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://github.com/varilaz/test.git/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://github.com/varilaz/test.git/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://github.com/varilaz/test.git/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://github.com/varilaz/test.git/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://github.com/varilaz/test.git/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://github.com/varilaz/test.git/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://github.com/varilaz/test.git/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://github.com/varilaz/test.git/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg": "de51a8494180a6db074af2dee2383f0a363c5b08",
+    "https://github.com/varilaz/test.git/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf": "44bc1850f570972267b169ae18f1cb06b611ffa2",
+    "https://github.com/varilaz/test.git/glyphicons-halflings-regular.5be1347c682810f199c7.eot": "86b6f62b7853e67d3e635f6512a5a5efc58ea3c3",
+    "https://github.com/varilaz/test.git/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff": "278e49a86e634da6f2a02f3b47dd9d2a8f26210f",
+    "https://github.com/varilaz/test.git/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2": "ca35b697d99cae4d1b60f2d60fcd37771987eb07",
+    "https://github.com/varilaz/test.git/index.html": "451782bcceb0436d37b7d312ac580d871fe37e10",
+    "https://github.com/varilaz/test.git/main-es2015.efafcf356fbe8ae70a9c.js": "8d2199a1ea26260bf7b7d9b380f1ceb3c4c3252b",
+    "https://github.com/varilaz/test.git/main-es5.efafcf356fbe8ae70a9c.js": "0f97d34bf6aa55b55da8a8de682a034064d8cc36",
+    "https://github.com/varilaz/test.git/manifest.webmanifest": "fbbb9904060dbac94cdb1e4eed377537076e729b",
+    "https://github.com/varilaz/test.git/polyfills-es2015.f332a089ad1600448873.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "https://github.com/varilaz/test.git/polyfills-es5.2237b5d0d7a85091411d.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
+    "https://github.com/varilaz/test.git/runtime-es2015.0dae8cbc97194c7caed4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://github.com/varilaz/test.git/runtime-es5.0dae8cbc97194c7caed4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://github.com/varilaz/test.git/styles.f4bc06104ae01c18a355.css": "d0db26d17f1301473dc92607a2141f17485df8ff"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
