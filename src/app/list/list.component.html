@@ -1,0 +1,73 @@
+
+<div style="z-index: 99; height: 100px; width: 100%; background-color: darkorange; position: fixed;">
+    <form class="form-group" [formGroup]="form" (submit)="onAgeFilter(ageMin, ageMax)">
+        <input
+        class="form-control age"
+        type="number"
+        #ageMin
+        placeholder="age from"
+        min="0"
+        formControlName="ageMin">
+    <input 
+        class="form-control age"
+        type="number"
+        #ageMax
+        placeholder="age to"
+        formControlName="ageMax"
+        min="0">
+    <button type="submit" class="btn btn-primary">Age filter</button>
+    </form >
+    <input
+        class="form-control search" 
+        type="text"
+        placeholder="Search by typing letters"
+        name="search"
+        ngModel
+        #searchInput
+        required
+        (keyup)="onSearch($event)"
+        (focusout)="resetField(searchInput)">
+        <div class="item">
+            <p>{{num}} item found</p>
+        </div>  
+</div>
+
+<br><br><br><br><br>
+<div>
+
+   <div infinite-scroll [infiniteScrollDistance]="2" [infiniteScrollThrottle]="50" (scrolled)="onScrollDown()" class="container animation">  
+     <div  *ngFor="let item of allpost" class="card  img-responsive">
+        <img src="{{item.thumbnail}}" (load)="isLoaded()" class="card-img-top img-responsive">  
+        <div *ngIf="isLoading" style="text-align: center; vertical-align: middle; padding: 70px 0;">
+            <app-loading-spinner></app-loading-spinner>
+        </div>
+           <div class="card-body">
+            <p class="card-text"><b>Name and age: </b> <i>{{item.name}} - {{item.age}} years old</i> </p>
+            <p class="card-text"> <b>Weight: </b> <i>{{item.weight | number: '1.0-0'}} kg</i> </p>
+            <p class="card-text"><b>Height: </b> <i>{{item.height | number: '1.0-0'}} cm</i> </p>
+            <p class="card-text"><b>Hair color: </b> <i>{{item.hair_color}}</i></p>
+            <p class="card-text"><b>Professions: </b> <i>{{item.professions}}</i></p>
+            <p class="card-text"><b>Friends: </b> <i>{{item.friends}}</i></p>
+           </div>
+       </div> 
+
+
+    <div>
+         <ngx-spinner
+            bdOpacity = 0.8
+            bdColor=""
+            color="grey"
+            size="default"
+            type="ball-pulse-sync"
+            [fullScreen]="false">
+        </ngx-spinner> 
+    </div>
+    <div class="alert alert-danger error" *ngIf="!validAge">
+        Enter a valdid ages!
+    </div>
+    <div  style="z-index: 100; position:absolute; bottom: 10px;" *ngIf="!notEmptyPost">
+        No more items to show!
+    </div>
+    
+</div>
+
